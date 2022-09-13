@@ -1,0 +1,566 @@
+[
+    {
+        "path": "/systemconfig/distance",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/distance/filter",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/distance",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/distance",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/distance",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/distance/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage/list",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage/filter",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/stage/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/route",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/route",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/route",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/route",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/route/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "GET",
+        "path": "/systemconfig/site",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "GET",
+        "path": "/systemconfig/site/haveCamera",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "GET",
+        "path": "/systemconfig/site/filter",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "GET",
+        "rabbit": "rpc",
+        "path": "/systemconfig/camera/camera-layout"
+    },
+    {
+        "path": "/systemconfig/site",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layouts",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-type",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "POST",
+        "rabbit": "rpc",
+        "path": "/systemconfig/camera/camera-layout"
+    },
+    {
+        "method": "PUT",
+        "rabbit": "rpc",
+        "path": "/systemconfig/camera/camera-layout"
+    },
+    {
+        "method": "DELETE",
+        "rabbit": "rpc",
+        "path": "/systemconfig/camera/camera-layout"
+    },
+    {
+        "path": "/systemconfig/camera/image-camera/images",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "POST",
+        "rabbit": "rpc",
+        "path": "/systemconfig/camera/image-camera"
+    },
+    {
+        "path": "/systemconfig/distance",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area/areas",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads/process-unit",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/model-profiles",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/services",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/server",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/json-spec",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/process-unit/video-threads",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "method": "GET",
+        "rabbit": "rpc",
+        "path": "/systemconfig/vms-board"
+    },
+    {
+        "method": "GET",
+        "rabbit": "rpc",
+        "path": "/systemconfig/vms-board/history"
+    },
+    {
+        "path": "/systemconfig/vms-board",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vms-board",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vms-board",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vms-board/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },    
+    {
+        "path": "/systemconfig/camera/camera-layout/layout-area/id-max",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site/provinces",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site/districts",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site/wards",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/displayscript",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/displayscript/plan",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/displayscript",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/displayscript",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/displayscript",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/news-letter",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/news-letter",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/news-letter",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/news-letter/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/news-letter",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds/status",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/camera",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/connection",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/connection-by-info",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/systemconfig/vms/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category/multi-delete",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/category/filter",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/direction",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site/test/data",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-by-site-list",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/camera/camera-by-stage-list",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking/by-identification",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/lanes",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/site/point",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds/video-threads",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/vds/camera-status/internal",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/devices",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/places",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/systemconfig/object-tracking/processed",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+]

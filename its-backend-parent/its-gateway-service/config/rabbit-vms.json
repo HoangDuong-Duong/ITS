@@ -1,0 +1,12 @@
+[    
+    {
+        "path": "/vms/cut-video",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vms/live-image",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

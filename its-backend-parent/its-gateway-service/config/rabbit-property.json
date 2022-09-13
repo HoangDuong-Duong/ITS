@@ -1,0 +1,63 @@
+[    
+    {
+        "path": "/property",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/property/multi",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/property",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/property",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/property/multi",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+    	"path": "/property/history",
+    	"method": "GET",
+    	"rabbit": "rpc"
+    },
+    {
+    	"path": "/property/history",
+    	"method": "POST",
+    	"rabbit": "rpc"
+    },
+    {
+        "path": "/property/history",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/property/search",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+
+    {
+        "path": "/property/group",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/property/history",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/property/export",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+
+]

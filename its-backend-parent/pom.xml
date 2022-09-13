@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.1</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
+    
+    <groupId>com.elcom.its</groupId>
+    <artifactId>its-backend-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    
+    <modules>
+        <module>its-common</module>
+        <module>its-abac-service</module>
+        <module>its-id-service</module>
+        <module>its-menu-management-service</module>
+        <module>its-gateway-service</module>
+        <module>its-notify-service</module>
+        <module>its-upload-service</module>
+        <module>its-bff-service</module>
+        <module>its-map-service</module>
+        <module>its-config-service</module>
+        <!--        <module>its-report-service</module>-->
+        <module>its-vms-service</module>
+        <module>its-vms-board-service</module>
+        <module>its-management-service</module>
+        <module>its-notify-receive-service</module>
+        <module>its-report-service</module>
+        <module>its-vds-service</module>
+        <module>its-zalo-gateway-service</module>
+        <module>its-zalo-upload-service</module>
+        <module>its-weather-service</module>
+        <module>its-shift-service</module>
+        <module>its-common-property-service</module>
+        <module>test-service</module>
+        <module>its-electric-cabinet-service</module>
+        <module>its-public-gateway-service</module>
+        <module>its-map-public-service</module>
+        <module>its-management-public-service</module>
+    </modules>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <dependencies>
+        <!-- Loombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        
+        <!-- Common -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <!-- Gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+    </dependencies>
+    <name>its-backend-parent</name>
+</project>

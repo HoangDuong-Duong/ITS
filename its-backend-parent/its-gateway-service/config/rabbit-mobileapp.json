@@ -1,0 +1,13 @@
+[
+  {
+    "path": "/mobile-app/notify",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/mobile-app/device",
+    "method": "POST",
+    "rabbit": "rpc"
+  }
+
+]

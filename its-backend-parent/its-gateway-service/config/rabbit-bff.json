@@ -1,0 +1,7 @@
+[
+  {
+    "path": "/bff/role/group",
+    "method": "GET",
+    "rabbit": "rpc"
+  }
+  ]

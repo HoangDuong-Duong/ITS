@@ -1,0 +1,69 @@
+[    
+    {
+        "path": "/map/system-device",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/stages",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/map/event-in-stages",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/object-tracking-in-stages",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/stage/traffic-flow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/system-device-in-stages",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/map-between-site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/stage/report/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/nearby-camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/straight-map",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/straight-map/traffic-flow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/stage/mid-point",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/map/near-by-site",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    
+]

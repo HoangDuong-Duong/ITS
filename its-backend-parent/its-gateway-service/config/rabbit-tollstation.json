@@ -1,0 +1,53 @@
+[
+  {
+    "path": "/tollstation",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation/lanes",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation/traffic",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation/traffic/report-line",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation/traffic/report-lanes",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation/lanes/history",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation/direction",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/tollstation",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  }
+]
+        

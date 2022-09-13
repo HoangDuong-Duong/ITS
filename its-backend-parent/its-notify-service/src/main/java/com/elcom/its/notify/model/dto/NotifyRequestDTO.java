@@ -1,0 +1,63 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.elcom.its.notify.model.dto;
+
+import java.io.Serializable;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
+/**
+ *
+ * @author Admin
+ */
+@SuperBuilder
+@Setter
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString(callSuper = true)
+@Data
+public class NotifyRequestDTO implements Serializable {
+
+    protected int type;
+
+    protected String title;
+
+    protected Object content;
+
+    protected String url;
+
+    protected String objectType;
+
+    protected String objectUuid;
+
+    protected String userId;
+
+    protected String siteId;
+
+    protected Integer position;
+    
+    protected String startTime;
+    
+    protected String stageCode;
+    
+    protected String stageId;
+    
+    protected String statusCode;
+    
+    protected String urlLink;
+    
+    protected String urlTitle;
+    
+    protected String sourceId;
+    
+    protected String jobId;
+}

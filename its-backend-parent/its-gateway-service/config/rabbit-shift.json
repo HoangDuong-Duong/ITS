@@ -1,0 +1,71 @@
+[    
+    {
+        "path": "/shift",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },{
+        "path": "/shift/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/user",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/user",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/user/list-user-on-shift",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/export/weekly",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/export/monthly",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/shift/login",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/shift/daily-report",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/shift/notification",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

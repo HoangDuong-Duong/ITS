@@ -1,0 +1,52 @@
+[    
+    {
+        "path": "/electric-cabinet",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet/fan/turn-on",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet/fan/turn-off",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet/fire-alarm/turn-on",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet/fire-alarm/turn-off",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet/door/open",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/electric-cabinet/door/close",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

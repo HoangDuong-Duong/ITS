@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/its-abac-service/its-abac-service.iml" filepath="$PROJECT_DIR$/its-abac-service/its-abac-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-backend-parent.iml" filepath="$PROJECT_DIR$/its-backend-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-bff-service/its-bff-service.iml" filepath="$PROJECT_DIR$/its-bff-service/its-bff-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-common/its-common.iml" filepath="$PROJECT_DIR$/its-common/its-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-common-property-service/its-common-property-service.iml" filepath="$PROJECT_DIR$/its-common-property-service/its-common-property-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-config-service/its-config-service.iml" filepath="$PROJECT_DIR$/its-config-service/its-config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-electric-cabinet-service/its-electric-cabinet-service.iml" filepath="$PROJECT_DIR$/its-electric-cabinet-service/its-electric-cabinet-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-gateway-service/its-gateway-service.iml" filepath="$PROJECT_DIR$/its-gateway-service/its-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-id-service/its-id-service.iml" filepath="$PROJECT_DIR$/its-id-service/its-id-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-management-public-service/its-management-public-service.iml" filepath="$PROJECT_DIR$/its-management-public-service/its-management-public-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-management-service/its-management-service.iml" filepath="$PROJECT_DIR$/its-management-service/its-management-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-map-public-service/its-map-public-service.iml" filepath="$PROJECT_DIR$/its-map-public-service/its-map-public-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-map-service/its-map-service.iml" filepath="$PROJECT_DIR$/its-map-service/its-map-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-menu-management-service/its-menu-management-service.iml" filepath="$PROJECT_DIR$/its-menu-management-service/its-menu-management-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-notify-receive-service/its-notify-receive-service.iml" filepath="$PROJECT_DIR$/its-notify-receive-service/its-notify-receive-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-notify-service/its-notify-service.iml" filepath="$PROJECT_DIR$/its-notify-service/its-notify-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-public-gateway-service/its-public-gateway-service.iml" filepath="$PROJECT_DIR$/its-public-gateway-service/its-public-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-report-service/its-report-service.iml" filepath="$PROJECT_DIR$/its-report-service/its-report-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-shift-service/its-shift-service.iml" filepath="$PROJECT_DIR$/its-shift-service/its-shift-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-upload-service/its-upload-service.iml" filepath="$PROJECT_DIR$/its-upload-service/its-upload-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-vds-service/its-vds-service.iml" filepath="$PROJECT_DIR$/its-vds-service/its-vds-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-vms-board-service/its-vms-board-service.iml" filepath="$PROJECT_DIR$/its-vms-board-service/its-vms-board-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-vms-service/its-vms-service.iml" filepath="$PROJECT_DIR$/its-vms-service/its-vms-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-weather-service/its-weather-service.iml" filepath="$PROJECT_DIR$/its-weather-service/its-weather-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-zalo-gateway-service/its-zalo-gateway-service.iml" filepath="$PROJECT_DIR$/its-zalo-gateway-service/its-zalo-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/its-zalo-upload-service/its-zalo-upload-service.iml" filepath="$PROJECT_DIR$/its-zalo-upload-service/its-zalo-upload-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-service/test-service.iml" filepath="$PROJECT_DIR$/test-service/test-service.iml" />
+    </modules>
+  </component>
+</project>

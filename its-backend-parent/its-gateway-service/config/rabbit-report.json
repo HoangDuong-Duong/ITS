@@ -1,0 +1,247 @@
+[    
+    {
+        "path": "/report/traffic-flow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/violation",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/site-traffic-status",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/site-traffic-status",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/vehicleTrack/notify",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/no-process/detail",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/statistic/no-process/total",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/processed/detail",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/processed/total",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation/total",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation/type",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation/process-status",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation/vehicles",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/traffic-flow/vehicles",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/traffic-flow/vehicles-fanchart",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/traffic-flow/vehicles-linechart",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation/event-type",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation/object-type",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation-fanchart",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation-linechart",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation-process",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation-detail",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/traffic-flow/vehicles-fanchart-value",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/statistic/violation-fanchart-value",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/report/source-cam-status",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-flow/chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-flow/site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-jam",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-jam-monitoring",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-jam-monitoring-all",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/timeLine/traffic-jam",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/sort/traffic-jam",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-flow/list",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-flow/fan-chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/traffic-flow/line-chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/list",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/fan-chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/line-chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/object-tracking/processed",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/day",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/list-violation",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/report/event/list-violation/export",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]
+

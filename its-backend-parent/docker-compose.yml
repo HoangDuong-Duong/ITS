@@ -1,0 +1,244 @@
+version: '2.4'
+
+services:
+  gateway-backend:
+    build: ./its-gateway-service
+    container_name: gateway-backend
+    image: gateway-backend:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 1024m
+    mem_reservation: 256M
+    ports:
+      - 8681:8681
+      - 8680:8680
+    volumes:
+      - ./its-gateway-service/config:/config
+      - ./its-gateway-service/logs:/logs
+    depends_on:
+      - abac-service
+
+  zalo-gateway-backend:
+    build: ./its-zalo-gateway-service
+    container_name: zalo-gateway-backend
+    image: zalo-gateway-backend:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 1024m
+    mem_reservation: 256M
+    ports:
+      - 8684:8684
+    volumes:
+      - ./its-zalo-gateway-service/config:/config
+      - ./its-zalo-gateway-service/logs:/logs
+
+  abac-service:
+    build: ./its-abac-service
+    container_name: abac-service
+    image: abac-service:latest
+    mem_limit: 1024m
+    mem_reservation: 256M
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - 9602:9602
+    depends_on:
+      - id-service
+    volumes:
+      - ./its-abac-service/config:/config
+      - ./its-abac-service/logs:/logs
+      
+  upload-service:
+    build: ./its-upload
+    container_name: upload-service
+    image: upload-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 2048m
+    mem_reservation: 256M
+    ports:
+      - 8683:8683
+      - 8883:8883
+    depends_on:
+      - id-service
+    volumes:
+      - ./its-upload/config:/config
+      - ./its-upload/logs:/logs    
+      - ./its-upload/upload:/upload
+      
+  notify-service:
+    build: ./its-notify-service
+    container_name: notify-service
+    image: notify-service:latest
+    mem_limit: 512m
+    mem_reservation: 256M
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - 9604:9604
+    depends_on:
+      - id-service
+      - abac-service
+    volumes:
+      - ./its-notify-service/config:/config
+      - ./its-notify-service/logs:/logs
+    network_mode: host
+
+  id-service:
+    build: ./its-id-service
+    container_name: id-service
+    image: id-service:latest
+    mem_limit: 1024m
+    mem_reservation: 512M
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - 9601:9601
+    volumes:
+      - ./its-id-service/config:/config
+      - ./its-id-service/logs:/logs
+    depends_on:
+      - menu-service
+    network_mode: host  
+
+  menu-service:
+    build: ./its-menu-service
+    container_name: menu-service
+    image: menu-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 256m
+    mem_reservation: 128M
+    ports:
+      - 9603:9603
+    volumes:
+      - ./its-menu-service/config:/config
+      - ./its-menu-service/logs:/logs
+
+  map-service:
+    build: ./its-map-service
+    container_name: map-service
+    image: map-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 512m
+    mem_reservation: 256M
+    ports:
+      - 9610:9610
+    volumes:
+      - ./its-map-service/config:/config
+      - ./its-map-service/logs:/logs
+    network_mode: host
+    depends_on:
+      - vms-service
+
+  vms-service:
+    build: ./its-vms-service
+    container_name: vms-service
+    image: vms-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 512m
+    mem_reservation: 256M
+    ports:
+      - 9608:9608
+    volumes:
+      - ./its-vms-service/config:/config
+      - ./its-vms-service/logs:/logs
+    network_mode: host
+    
+  bff-service:
+    build: ./its-bff-service
+    container_name: bff-service
+    image: bff-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 512m
+    mem_reservation: 256M
+    ports:
+      - 8682:8682
+      - 8112:8112
+    volumes:
+      - ./its-bff-service/config:/config
+      - ./its-bff-service/logs:/logs
+    network_mode: host  
+    depends_on:
+      - id-service
+      - abac-service
+
+  config-service:
+    build: ./its-config-service
+    container_name: config-service
+    image: config-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 512m
+    mem_reservation: 256M
+    ports:
+      - 9605:9605
+    volumes:
+      - ./its-config-service/config:/config
+      - ./its-config-service/logs:/logs
+    network_mode: host
+
+  management-service:
+    build: ./its-management-service
+    container_name: management-service
+    image: management-service:latest
+    mem_limit: 512m
+    mem_reservation: 256M
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - 9606:9606
+    volumes:
+      - ./its-management-service/config:/config
+      - ./its-management-service/logs:/logs
+    network_mode: host
+
+  vds-service:
+    build: ./its-vds-service
+    container_name: vds-service
+    image: vds-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 512m
+    mem_reservation: 256M
+    ports:
+      - 9615:9615
+    volumes:
+      - ./its-vds-service/config:/config
+      - ./its-vds-service/logs:/logs
+    network_mode: host
+    
+  report-service:
+    build: ./its-report-service
+    container_name: report-service
+    image: report-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 512m
+    mem_reservation: 256M
+    ports:
+      - 9613:9613
+    volumes:
+      - ./its-report-service/config:/config
+      - ./its-report-service/logs:/logs
+    network_mode: host
+
+  notify-receiver-service:
+    build: ./its-notify-receiver-service
+    container_name: notify-receiver-service
+    image: notify-receiver-service:latest
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    mem_limit: 2048m
+    mem_reservation: 512M
+    ports:
+      - 9611:9611
+    volumes:
+      - ./its-notify-receiver-service/config:/config
+      - ./its-notify-receiver-service/logs:/logs
+    network_mode: host
+    
+

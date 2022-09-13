@@ -1,0 +1,263 @@
+[    
+    {
+        "path": "/management/center/job/finish",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/common/job",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/center/job/cancel",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/common/job/process-result",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/job",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/base/job/confirm",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/base/job/process",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/base/job/process-vms-job",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/base/job/process-repair-job",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/common/job/comment",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/center/job",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/base/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/common/event/detail",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/common/event/file",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/common/event/history",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/manual",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition/history",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/security",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/manual",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/violation",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/multi",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition/multi",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/base/jobs",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/recognition/statistic",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/report/by-cam",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/confirm",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/job/reverification-request",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/finish",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/map",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/common/job/map-notification",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/object-tracking-history/recently",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/scheduled-event",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/scheduled-event",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/scheduled-event",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+    ,
+    {
+        "path": "/management/scheduled-event",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/scheduled-event/job",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/device-status",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/device-status",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/device-status/history",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/device-status/report",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/base/event/calender",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event/export",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/report/stage-traffic-flow-history",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/management/center/event",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+]
+        

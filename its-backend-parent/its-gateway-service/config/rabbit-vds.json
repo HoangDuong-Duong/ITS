@@ -1,0 +1,138 @@
+[    
+    {
+        "path": "/vds",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vds",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vds",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vds",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vds/status",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vds/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/vds/report/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+    , 
+    {
+        "path": "/vds/report/traffic-flow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/traffic-flow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/traffic-flow/report",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/dashboard/event",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/dashboard/event/chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/dashboard/event/site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/dashboard/traffic-flow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/dashboard/traffic-flow/site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/dashboard/traffic-flow/chart",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/cameraLayOut",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/layoutAreas",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/camera",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/video-threads",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/status/active",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/status/inactive",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/event/center",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/site",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/render/active",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/render/inactive",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/vds/download-file",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

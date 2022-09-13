@@ -1,0 +1,47 @@
+[    
+    {
+        "path": "/patrol/patrol-violations",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/patrol-violations",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/process-violations/minutes-penalty/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/process-violations/decision-penalty-no-minutes/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/patrol-violations",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/patrol-violations-now",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/confirm-not-violate/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/confirm-violate/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/patrol/patrol-violations/by-violation-id",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+]

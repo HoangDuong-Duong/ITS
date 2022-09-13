@@ -1,0 +1,237 @@
+[
+  {
+  "method": "GET",
+  "rabbit": "rpc",
+  "path": "/vmsboard"
+  },
+  {
+  "method": "GET",
+  "rabbit": "rpc",
+  "path": "/vmsboard/history"
+  },
+  {
+  "path": "/vmsboard",
+  "method": "POST",
+  "rabbit": "rpc"
+  },
+  {
+  "path": "/vmsboard/stage",
+  "method": "POST",
+  "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/multi-delete",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/baseId",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/parentId",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/board",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/default",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/plan",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter/default",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter/multi-delete",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+  "method": "GET",
+  "rabbit": "rpc",
+  "path": "/vmsboard/base"
+  },
+  {
+    "method": "GET",
+    "rabbit": "rpc",
+    "path": "/vmsboard/base/active"
+  },
+  {
+    "path": "/vmsboard/base",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/base",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/base",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/base/multi-delete",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/current-display",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/time",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/detail",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/running",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/detail",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/detail",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/max-priority",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/top-priority",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "method": "GET",
+    "rabbit": "rpc",
+    "path": "/vmsboard/layout"
+  },
+  {
+    "path": "/vmsboard/layout",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/layout",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "method": "GET",
+    "rabbit": "rpc",
+    "path": "/vmsboard/content"
+  },
+  {
+    "path": "/vmsboard/content",
+    "method": "POST",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/content",
+    "method": "DELETE",
+    "rabbit": "rpc"
+  },
+  {
+    "method": "GET",
+    "rabbit": "rpc",
+    "path": "/vmsboard/attribute"
+  },
+  {
+    "path": "/vmsboard/attribute",
+    "method": "PUT",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/news-letter/running",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/displayscript/news-letter/eventType",
+    "method": "GET",
+    "rabbit": "rpc"
+  },
+  {
+    "path": "/vmsboard/direction",
+    "method": "GET",
+    "rabbit": "rpc"
+  }
+]

@@ -1,0 +1,4 @@
+12-09-2022 15:41:07.946 INFO  c.e.i.r.ItsReportServiceApplicationTests.logStarting - Starting ItsReportServiceApplicationTests using Java 11.0.10 on DESKTOP-BNS0LEU with PID 17748 (started by Tran Thu Hang in D:\ITS\its\Source\Product\ITS Backend\its-backend-parent\its-report-service)
+12-09-2022 15:41:07.947 INFO  c.e.i.r.ItsReportServiceApplicationTests.logStartupProfileInfo - The following profiles are active: common,dev
+12-09-2022 15:41:10.925 INFO  c.e.i.r.m.rabbitmq.RabbitMQConfig.connectionFactory - Host:103.21.151.167
+12-09-2022 15:41:12.483 INFO  c.e.i.r.ItsReportServiceApplicationTests.logStarted - Started ItsReportServiceApplicationTests in 4.923 seconds (JVM running for 5.843)

@@ -1,0 +1,42 @@
+package com.elcom.its.report.messaging.rabbitmq;
+
+import org.springframework.amqp.core.Binding;
+import org.springframework.amqp.core.BindingBuilder;
+import org.springframework.amqp.core.DirectExchange;
+import org.springframework.amqp.core.Queue;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author ducduongn
+ */
+@Configuration
+public class RpcConfig {
+    @Value("${user.rpc.exchange}")
+    private String exchange;
+    @Value("${user.rpc.queue}")
+    private String queue;
+    @Value("${user.rpc.key}")
+    private String key;
+
+    @Bean("rpcQueue")
+    public Queue rpcQueue() {
+        return new Queue(queue);
+    }
+
+    @Bean("rpcExchange")
+    public DirectExchange rpcExchange() {
+        return new DirectExchange(exchange);
+    }
+
+    @Bean("rpcBinding")
+    public Binding binding(DirectExchange rpcExchange, Queue rpcQueue) {
+        return BindingBuilder.bind(rpcQueue).to(rpcExchange).with(key);
+    }
+
+    @Bean
+    public RpcServer rpcServer() {
+        return new RpcServer();
+    }
+}

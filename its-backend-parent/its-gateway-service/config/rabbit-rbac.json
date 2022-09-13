@@ -1,0 +1,172 @@
+[    
+    {
+        "path": "/rbac/authorization",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/role",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/role/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/userLst",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/admin",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/resources",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/menu",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/violation_types",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/violation_inspect_status",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/violation_process_status",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/role/detail",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/relation_resources/check",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/relation_resources",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/rbac/role/user/internal",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/authorization",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/auth",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/auth/group",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/group",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/method",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/policy",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/policy",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/group",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/method",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/auth",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/auth/group",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/policy",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/abac/role/method",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+]

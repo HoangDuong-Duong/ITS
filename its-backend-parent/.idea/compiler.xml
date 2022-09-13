@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="its-common-property-service" />
+        <module name="its-shift-service" />
+        <module name="its-id-service" />
+        <module name="its-menu-management-service" />
+        <module name="its-vms-service" />
+        <module name="its-zalo-upload-service" />
+        <module name="its-vds-service" />
+        <module name="its-gateway-service" />
+        <module name="its-map-service" />
+        <module name="its-management-public-service" />
+        <module name="its-abac-service" />
+        <module name="its-config-service" />
+        <module name="its-bff-service" />
+        <module name="its-map-public-service" />
+        <module name="test-service" />
+        <module name="its-report-service" />
+        <module name="its-vms-board-service" />
+        <module name="its-common" />
+        <module name="its-weather-service" />
+        <module name="its-notify-service" />
+        <module name="its-upload-service" />
+        <module name="its-public-gateway-service" />
+        <module name="its-notify-receive-service" />
+        <module name="its-zalo-gateway-service" />
+        <module name="its-electric-cabinet-service" />
+        <module name="its-management-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="its-abac-service" target="11" />
+      <module name="its-backend-parent" target="1.8" />
+      <module name="its-bff-service" target="11" />
+      <module name="its-common" target="1.8" />
+      <module name="its-common-property-service" target="11" />
+      <module name="its-config-service" target="11" />
+      <module name="its-electric-cabinet-service" target="1.8" />
+      <module name="its-gateway-service" target="11" />
+      <module name="its-id-service" target="11" />
+      <module name="its-management-public-service" target="11" />
+      <module name="its-management-service" target="11" />
+      <module name="its-map-public-service" target="1.8" />
+      <module name="its-map-service" target="1.8" />
+      <module name="its-menu-management-service" target="1.8" />
+      <module name="its-notify-receive-service" target="11" />
+      <module name="its-notify-service" target="11" />
+      <module name="its-public-gateway-service" target="11" />
+      <module name="its-report-service" target="11" />
+      <module name="its-shift-service" target="1.8" />
+      <module name="its-upload-service" target="1.8" />
+      <module name="its-vds-service" target="11" />
+      <module name="its-vms-board-service" target="8" />
+      <module name="its-vms-service" target="1.8" />
+      <module name="its-weather-service" target="1.8" />
+      <module name="its-zalo-gateway-service" target="11" />
+      <module name="its-zalo-upload-service" target="1.8" />
+      <module name="test-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="its-abac-service" options="-parameters" />
+      <module name="its-bff-service" options="-parameters" />
+      <module name="its-common" options="-parameters" />
+      <module name="its-common-property-service" options="-parameters" />
+      <module name="its-config-service" options="-parameters" />
+      <module name="its-electric-cabinet-service" options="-parameters" />
+      <module name="its-gateway-service" options="-parameters" />
+      <module name="its-id-service" options="-parameters" />
+      <module name="its-management-public-service" options="-parameters" />
+      <module name="its-management-service" options="-parameters" />
+      <module name="its-map-public-service" options="-parameters" />
+      <module name="its-map-service" options="-parameters" />
+      <module name="its-menu-management-service" options="-parameters" />
+      <module name="its-notify-receive-service" options="-parameters" />
+      <module name="its-notify-service" options="-parameters" />
+      <module name="its-public-gateway-service" options="-parameters" />
+      <module name="its-report-service" options="-parameters" />
+      <module name="its-shift-service" options="-parameters" />
+      <module name="its-upload-service" options="-parameters" />
+      <module name="its-vds-service" options="-parameters" />
+      <module name="its-vms-board-service" options="-parameters" />
+      <module name="its-vms-service" options="-parameters" />
+      <module name="its-weather-service" options="-parameters" />
+      <module name="its-zalo-gateway-service" options="-parameters" />
+      <module name="its-zalo-upload-service" options="-parameters" />
+      <module name="test-service" options="-parameters" />
+    </option>
+  </component>
+</project>
